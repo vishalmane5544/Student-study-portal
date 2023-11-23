@@ -336,3 +336,4 @@ def profile(request):
         'todos_done':todos_done
     }
     return render(request,'dashboard/profile.html',context)
+
